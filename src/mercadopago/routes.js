@@ -30,8 +30,8 @@ Mercado_Pago.post("/", async (req, res) => {
         const preference = {
             items: nuevoparray,
             back_urls: {
-                "success": "https://glowing-marshmallow-629c31.netlify.app/compraexitosa",
-                "failure": "https://glowing-marshmallow-629c31.netlify.app/",
+                "success": "https://sitio-de-guitarras.netlify.app/#/product-list",
+                "failure": "https://sitio-de-guitarras.netlify.app/#/product-list",
                 "pending": ""
             },
             auto_return: "approved",
